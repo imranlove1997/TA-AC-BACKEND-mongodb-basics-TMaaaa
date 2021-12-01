@@ -3,7 +3,9 @@ writeCode
 Write code to execute below expressions.
 
 1. Create a database named `blog`.
+// use blog
 2. Create a collection called 'articles'.
+// db.createCollection('article')
 3. Insert multiple documents(at least 3) into articles. It should have fields
 
 - title as string
@@ -33,6 +35,7 @@ Write code to execute below expressions.
 ```
 
 4. Find all the articles using `db.COLLECTION_NAME.find()`
+// db.article.find().pretty()
 5. Find a document using \_id field.
 6. 1. Find documents using title
 7. 2. Find documents using author's name field.
